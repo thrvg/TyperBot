@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 url = "https://10fastfingers.com/typing-test/english"
-path_var = "D:\\chromedriver.exe"
+path_var = "D:\\chromedriver.exe" # Your path to Chromedriver
 driver = webdriver.Chrome(path_var)
 driver.get(url)
 driver.implicitly_wait(45)
