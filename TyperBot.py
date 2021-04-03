@@ -20,6 +20,6 @@ while True:
         texttotype = driver.find_element(By.CLASS_NAME, "highlight").text + ' '
         textfield.send_keys(texttotype)
     except Exception as e:
-        # Exception occurs if no more words left to type
+        # Exception occurs if no more words are left to type
         print('Over')
         break
